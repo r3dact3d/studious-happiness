@@ -1,0 +1,5 @@
+= Hello-OpenShift App Demo Example Stuff
+
+An example application repo being managed by Red Hat GitOps
+
+link:https://raw.githubusercontent.com/r3dact3d/gitops/main/appsets/hello-appset.yaml[Example applicationset]
