@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx
+  name: hello-openshift
   labels:
-    app: nginx
+    app: hello-openshift
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: nginx
+      app: hello-openshift
   template:
     metadata:
       labels:
-        app: nginx
+        app: hello-openshift
     spec:
       containers:
       - name: hello-openshift
