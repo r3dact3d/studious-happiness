@@ -33,5 +33,5 @@ spec:
       - name: tmp
         emptyDir: {}
       restartPolicy: Always
-      dnsPolicy: Clusterfirst
+      dnsPolicy: ClusterFirst
       serviceAccount: ""
