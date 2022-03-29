@@ -19,7 +19,7 @@ spec:
         image: "openshift/hello-openshift"
         env:
         - name: RESPONSE
-          value: "Hello New Test"
+          value: "Hello Stable Red Hat"
         ports:
         - containerPort: 8080
           protocol: "TCP"
